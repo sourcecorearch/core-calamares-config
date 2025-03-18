@@ -48,7 +48,7 @@ windowExpanding:    normal
 # This setting is ignored if "fullscreen" is selected for
 # *windowExpanding*, above. If not set, use constants defined
 # in CalamaresUtilsGui, 800x520.
-windowSize: 1024px,735px
+windowSize: 800px,800px
 
 # Placement of Calamares window. Either "center" or "free".
 # Whether "center" actually works does depend on the window
@@ -121,13 +121,13 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         Corelinux
-    shortProductName:    Corelinux
+    productName:         EosOS
+    shortProductName:    EosOS
    # version:             2025.01.1
    # shortVersion:        2025.01.1
-    versionedName:       Corelinux
-    shortVersionedName:  Corelinux
-    bootloaderEntryName: Core
+    versionedName:       EosOS
+    shortVersionedName:  EosOS
+    bootloaderEntryName: EosOS
 
 # These images are loaded from the branding module directory.
 #
@@ -158,8 +158,8 @@ strings:
 # These filenames can also use substitutions from os-release (see above).
 images:
     # productBanner:       "banner.png"
-    productIcon:         "squid.png"
-    productLogo:         "squid.png"
+    productIcon:         "eosos.png"
+    productLogo:         "eosos.png"
     # productWallpaper:    "wallpaper.png"
     productWelcome:      "languages.png"
 
