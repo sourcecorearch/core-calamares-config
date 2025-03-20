@@ -3,11 +3,6 @@
  * SPDX-License-Identifier: CC0-1.0
  */
 
-/*------------------------ Global Fonts -------------------*/
-*{
-   /* font: 12px "Jetbrains Mono"; */
-}
-
 /*------------------------ Bottom Buttons -----------------*/
 
 #debugButton, #aboutButton {
@@ -51,22 +46,6 @@ QWidget {
 
 #debugButton { 
 	qproperty-icon: url(/etc/calamares/branding/default/icons/about.svg);
-}
-
-#donateButton { 
-	qproperty-icon: url(/etc/calamares/branding/default/icons/donate.svg);
-}
-
-#supportButton {
-	qproperty-icon: url(/etc/calamares/branding/default/icons/fourm.svg);
-}
-
-#releaseNotesButton {
-	qproperty-icon: url(/etc/calamares/branding/default/icons/notes.svg);
-}
-
-#knownIssuesButton {
-	qproperty-icon: url(/etc/calamares/branding/default/icons/issues.svg);
 }
 
 #debugButton,
