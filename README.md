@@ -1,1 +1,1 @@
-# core-calamares-config-
+# core-calamares-config
