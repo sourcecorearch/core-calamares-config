@@ -48,7 +48,7 @@ windowExpanding:    normal
 # This setting is ignored if "fullscreen" is selected for
 # *windowExpanding*, above. If not set, use constants defined
 # in CalamaresUtilsGui, 800x520.
-windowSize: 1075px,650px
+windowSize: 1070px,520px
 
 # Placement of Calamares window. Either "center" or "free".
 # Whether "center" actually works does depend on the window
@@ -121,12 +121,12 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         EosOS
-    shortProductName:    EosOS
+    productName:         EosOS GNU/Linux(as root)
+    shortProductName:    EosOS GNU/Linux - Lite
    # version:             2025.01.1
    # shortVersion:        2025.01.1
-    versionedName:       EosOS
-    shortVersionedName:  EosOS
+    versionedName:       EosOS GNU/Linux - Lite
+    shortVersionedName:  EosOS GNU/Linux - Lite
     bootloaderEntryName: EosOS
 
 # These images are loaded from the branding module directory.

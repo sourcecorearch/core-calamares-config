@@ -3,21 +3,29 @@
  * SPDX-License-Identifier: CC0-1.0
  */
 
+/*
+ *
+ EosOS Calamares Theme
+
+*/
+
 /*------------------------ Bottom Buttons -----------------*/
 
 #debugButton, #aboutButton {
     border-style: solid;
-    font: bold 12px;
+    font: 10px;
     padding: 8px;
 }
 
 QWidget {
   background-color: #282c34;
-  font: 12px;
-	color: #EFF0F1;
+  font: 10px;
+  color: #EFF0F1;
 }
 
-
+QDialogButtonBox {
+    dialogbuttonbox-buttons-have-icons: 0;
+}
 
 #view-button-back,
 #view-button-next,
@@ -25,7 +33,7 @@ QWidget {
     background-color: #444A58;
     border: 1px solid #1E2128;
     border-radius: 2px;
-    font: bold 12px;
+    font: 10px;
     min-width: 4em;
     padding: 8px;
 }
@@ -54,7 +62,7 @@ QWidget {
 #supportButton,
 #releaseNotesButton,
 #knownIssuesButton {
-    font: bold 12px;
+    font: 10px;
     min-width: 2em;
     padding: 8px;
 }
@@ -75,7 +83,11 @@ QWidget {
 /*-- Welcome to installer text --*/
 QLabel#mainText {
 	color: #5294E2;
-    font: bold 12px;
+    font: 10px;
+}
+
+QLabel {
+    color: #EFF0F1;
 }
 
 /*-- Language Box --*/
@@ -110,6 +122,18 @@ QComboBox::down-arrow {
     image: url(/etc/calamares/branding/default/icons/go-down.svg);
 }
 
+QLineEdit:valid {
+    background-image: url(/etc/calamares/branding/default/icons/about.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+QLineEdit:invalid {
+    background-image: url(/etc/calamares/branding/default/icons/about.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 /*------------------------ Main App ------------------------*/
 
 #mainApp { 
@@ -140,22 +164,26 @@ QToolTip {
 
 QLabel#bootInfoIcon {
 	background-color: #282c34;
-    font: bold 12px;
+    font: 10px;
     
 }
 QLabel#bootInfoLabel {
 	color: #FFFFFF;
      border: 1px solid #2D303B;
-    font: bold 12px;
+    font: 10px;
 }
 QLabel#deviceInfoIcon {
 	background-color: #2D303B;
-    font: bold 12px;
+    font: 10px;
 }
 QLabel#deviceInfoLabel {
 	color: #282c34;
-    font: bold 12px;
+    font: 10px;
 }
+QWidget#partitionLabelsView QLabel {
+    color: #EFF0F1;
+}
+
 
 QCheckBox {
     background-color: #282c34;
@@ -223,6 +251,15 @@ QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical,
 QScrollBar::left-arrow:horizontal, QScrollBar::right-arrow:horizontal {
     background: none;
 }
+
+
+#partitionBarView {
+background-color: #1E2128;  /* Fondo oscuro */
+border: 1px solid #2D303B;  /* Borde sutil */
+min-height: 40px;           /* Altura mínima para asegurar visibilidad */
+margin: 5px;
+}
+
 
 #bootInfoIcon { 
 }
