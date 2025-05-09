@@ -158,8 +158,8 @@ strings:
 # These filenames can also use substitutions from os-release (see above).
 images:
     # productBanner:       "banner.png"
-    productIcon:         "eosos.png"
-    productLogo:         "eosos.png"
+    productIcon:         "logo.png"
+    productLogo:         "logo.png"
     # productWallpaper:    "wallpaper.png"
     productWelcome:      "languages.png"
 
